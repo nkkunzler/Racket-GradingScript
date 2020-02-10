@@ -18,15 +18,18 @@ The required files for the script to run is as follows:
 To run the script, the command **chmod +x** may need to be run before executing.
 
 #### Example File Structure 
-.
+```bash
 +-- racket.rkt
 +-- testcases
 |	+-- inputs.in
 |	+-- expected_outputs.out
 |	+-- expected_errors.err
 +-- racket_grader.sh
+```
 
 #### Example Input / Output
+```
+[user]:~$
 [user]:~$ ./racket_grader.sh
 
 ----- Running Testcase -----
@@ -34,6 +37,9 @@ To run the script, the command **chmod +x** may need to be run before executing.
 *********************************
 * TESTCASE 'testcase_name' PASSED
 *********************************
+
+[user]:~$
+```
 
 ## Author
 Nicholas Kunzler
