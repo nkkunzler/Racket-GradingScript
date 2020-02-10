@@ -4,6 +4,7 @@
 # ============== ONLY EDIT THE FOLLOWING VARIABLES ===================
 # ====================================================================
 racket_loc="/mnt/c/Program Files/Racket/Racket.exe" # Location of racket executable
+#racket_loc="/usr/racket/bin"						# May be where racket is on linux, to lazy to check.
 
 rkt_exec="funs.rkt"									# Name of the .rkt file
 input_file="./testcases/${rkt_exec%.*}.in"			# Default input file name is the executable name plus .in
